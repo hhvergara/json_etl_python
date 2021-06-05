@@ -208,6 +208,7 @@ def ej3():
           bbox_to_anchor=(1, 0, 0.5, 1))
     plt.axis("equal")
     plt.show()
+    
 
 if __name__ == '__main__':
     print("Bienvenidos a otra clase de Inove con Python")
