@@ -1,0 +1,17 @@
+[
+    {
+        "Nombre": "Marta",
+        "Apellido": "Fort",
+        "DNI": 14354867,
+        "prendas": [
+            {
+                "prenda": "zapatilla",
+                "cantidad": 4
+            },
+            {
+                "prenda": "remeras",
+                "cantidad": 12
+            }
+        ]
+    }
+]
