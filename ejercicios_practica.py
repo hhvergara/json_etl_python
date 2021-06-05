@@ -18,7 +18,6 @@ __version__ = "1.1"
 import json
 import requests
 import matplotlib.pyplot as plt
-import numpy as np
 
 def ej1():
     # JSON Serialize
@@ -189,7 +188,8 @@ def ej3():
             user10.append(user)
     for completo in user10:
         if completo["completed"] == True:
-            completed10 += 1            
+            completed10 += 1    
+                    
 
     # Debe poder graficar dicha información en un gráfico de torta.
     # En caso de no poder hacer el gráfico comience por usar print
@@ -209,9 +209,6 @@ def ej3():
           bbox_to_anchor=(1, 0, 0.5, 1))
     plt.axis("equal")
     plt.show()
-
-
-
 
 if __name__ == '__main__':
     print("Bienvenidos a otra clase de Inove con Python")
