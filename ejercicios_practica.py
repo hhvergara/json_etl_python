@@ -188,8 +188,7 @@ def ej3():
             user10.append(user)
     for completo in user10:
         if completo["completed"] == True:
-            completed10 += 1    
-                    
+            completed10 += 1            
 
     # Debe poder graficar dicha información en un gráfico de torta.
     # En caso de no poder hacer el gráfico comience por usar print
