@@ -78,7 +78,7 @@ def ej2():
 def ej3():
     # Ejercicio de consumo de datos por API
     url = "https://jsonplaceholder.typicode.com/todos"
-
+ 
     # El primer paso es que copien esa URL en su explorador web
     # y analicen los datos en general.
     # Observando la URL se puede ver que en total hay 200 entradas,
